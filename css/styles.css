@@ -1,0 +1,97 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+
+body{
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+/* Для елементів таблиці */
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+
+/* Стилі для заголовків та елементів*/
+thead th,
+tfoot th,
+tfoot td{
+
+    /* border: 3px solid rgb(0, 0, 0); */
+    background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+}
+tbody th,
+tbody td{
+    border: 0.5px solid rgb(0, 0, 0);
+}
+
+
+/* Фон */
+thead,
+tfoot {
+    background: url(../img/ліга-чемпіонів-нов.jpg);
+    color: white;
+    font-size: 18px;
+}
+/* колір в середині таблиці */
+tbody{
+    background-color: rgb(157, 157, 221);
+}
+/* Заголовок таблиці */
+caption {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: large;
+    padding: 20px;
+    font-style: bold;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
+}
+ /* width: 450px;
+ background: rgba(0, 0, 0, 0.418);
+ padding: 40px;
+ text-align: center;
+ margin: auto;
+ margin-top: 5%;
+ color: white;
+ font-family: 'Century Gothic',
+ sans-serif; */
